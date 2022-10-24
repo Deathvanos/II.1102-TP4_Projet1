@@ -4,6 +4,7 @@ public abstract class Combatant {
 
     private String name;
     private int healthPoint;
+    private Weapon weapon;
 
     public Combatant(String n, int hp) {
         this.name = n;
@@ -16,6 +17,7 @@ public abstract class Combatant {
 
     // Classe abstraite
     public abstract void fight(Combatant combatant);
+    public abstract int getDamage();
 
     // Accesseurs GET
     public String getName() {return this.name;}

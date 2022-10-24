@@ -5,6 +5,7 @@ public abstract class Hero extends Combatant {
     // Creation du sac d'objet
     private Item[] sacHero = new Item[5];
 
+
     public Hero(String n, int hp) {
         super(n, hp);
 
