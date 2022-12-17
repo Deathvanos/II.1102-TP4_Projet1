@@ -1,4 +1,4 @@
 package com.isep.rpg;
 
-public class Item{
+public abstract class Item{
 }

@@ -4,18 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1be6463-38fa-4679-ac7a-8221911c0b34" name="Changes" comment="1.0&#10;- Création des combatant&#10;- Attaque entre combatant&#10;- Affichage des caractéristiques&#10;- Installation des tours de jeu&#10;- Début de création des armes&#10;&#10;A faire : &#10;- Mise en place des armes">
+    <list default="true" id="a1be6463-38fa-4679-ac7a-8221911c0b34" name="Changes" comment="2.0&#10;- Mise en place de armes&#10;- Jeu possible entre deux ordinateurs">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/isep/rpg/Armor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/isep/rpg/Text.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/isep/rpg/armor/Armure_en_cuir.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/isep/rpg/armor/Armure_en_fer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/isep/rpg/armor/Robe_de_sorcier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/isep/rpg/enemy/Gobelin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/isep/rpg/enemy/Squelette.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/isep/rpg/enemy/Troll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/isep/rpg/food/Lembdas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/isep/rpg/food/Pain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/isep/rpg/hero/Healer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/isep/rpg/potion/Grande_potion_de_magie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/isep/rpg/potion/Petite_potion_de_magie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/isep/rpg/weapon/Arc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/isep/rpg/weapon/Baton_de_destruction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/isep/rpg/weapon/Baton_de_soin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/isep/rpg/weapon/Epee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/isep/rpg/weapon/Gourdin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/isep/rpg/weapon/Lance_Flamme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test1to2_DamageAndDeath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test3to6_Attack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test7_AttributionRecompenses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/II.1102-TP4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/II.1102-TP4.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/isep/rpg/Combatant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/isep/rpg/Combatant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/isep/rpg/Dragon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/isep/rpg/Dragon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/isep/rpg/Consumable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/isep/rpg/Consumable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/isep/rpg/Dragon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/isep/rpg/enemy/Dragon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/isep/rpg/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/isep/rpg/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/isep/rpg/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/isep/rpg/Food.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/isep/rpg/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/isep/rpg/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/isep/rpg/Healer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/isep/rpg/Healer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/isep/rpg/Healer.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/isep/rpg/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/isep/rpg/Hero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/isep/rpg/Hunter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/isep/rpg/Hunter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/isep/rpg/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/isep/rpg/Mage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/isep/rpg/Hunter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/isep/rpg/hero/Hunter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/isep/rpg/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/isep/rpg/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/isep/rpg/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/isep/rpg/hero/Mage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/isep/rpg/Potion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/isep/rpg/Potion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/isep/rpg/SpellCaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/isep/rpg/SpellCaster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/isep/rpg/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/isep/rpg/Warrior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/isep/rpg/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/isep/rpg/hero/Warrior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/isep/rpg/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/isep/rpg/Weapon.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,18 +76,37 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/Apprentissage/Isep/Year_1/II.1102–Algorithmique_et_Programmation/II.1102-TP4_Projet1&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="com.isep.rpg.armor" />
+      <recent name="com.isep.rpg.potion" />
+      <recent name="com.isep.rpg.food" />
+      <recent name="com.isep.rpg.weapon" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="II.1102-TP4" />
@@ -64,9 +114,57 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test1to2_DamageAndDeath" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="II.1102-TP4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test1to2_DamageAndDeath" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test3to6_Attack" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="II.1102-TP4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test3to6_Attack" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test7_AttributionRecompenses" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="II.1102-TP4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test7_AttributionRecompenses" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testUsePotion" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="II.1102-TP4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="testUsePotion" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="TestNG.testUsePotion" />
+        <item itemvalue="TestNG.test3to6_Attack" />
+        <item itemvalue="TestNG.test7_AttributionRecompenses" />
+        <item itemvalue="TestNG.test1to2_DamageAndDeath" />
       </list>
     </recent_temporary>
   </component>
@@ -80,7 +178,30 @@
       <updated>1666334848025</updated>
       <workItem from="1666334849730" duration="12991000" />
       <workItem from="1666541801062" duration="6012000" />
-      <workItem from="1666617214648" duration="11210000" />
+      <workItem from="1666617214648" duration="14677000" />
+      <workItem from="1666678839692" duration="263000" />
+      <workItem from="1666692462572" duration="12396000" />
+      <workItem from="1666938443046" duration="654000" />
+      <workItem from="1666947480677" duration="4178000" />
+      <workItem from="1667139436446" duration="12140000" />
+      <workItem from="1667211856522" duration="12355000" />
+      <workItem from="1667238500750" duration="7669000" />
+      <workItem from="1667498044366" duration="10590000" />
+      <workItem from="1667640523161" duration="6929000" />
+      <workItem from="1667651770173" duration="759000" />
+      <workItem from="1667832310045" duration="2545000" />
+      <workItem from="1668427000587" duration="840000" />
+      <workItem from="1668502236101" duration="723000" />
+      <workItem from="1668507323958" duration="1192000" />
+      <workItem from="1668755316317" duration="692000" />
+      <workItem from="1668759207035" duration="134000" />
+      <workItem from="1669716739764" duration="2519000" />
+      <workItem from="1670005522096" duration="2516000" />
+      <workItem from="1670669479575" duration="3044000" />
+      <workItem from="1670746639201" duration="53000" />
+      <workItem from="1670773411152" duration="2871000" />
+      <workItem from="1670931182608" duration="1195000" />
+      <workItem from="1671125524494" duration="54000" />
     </task>
     <task id="LOCAL-00001" summary="1.0&#10;- Création des combatant&#10;- Attaque entre combatant&#10;- Affichage des caractéristiques&#10;- Installation des tours de jeu&#10;- Début de création des armes&#10;&#10;A faire : &#10;- Mise en place des armes">
       <created>1666618917750</created>
@@ -89,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666618917750</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2.0&#10;- Mise en place de armes&#10;- Jeu possible entre deux ordinateurs">
+      <created>1666634252318</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666634252318</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,7 +236,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.0&#10;- Création des combatant&#10;- Attaque entre combatant&#10;- Affichage des caractéristiques&#10;- Installation des tours de jeu&#10;- Début de création des armes&#10;&#10;A faire : &#10;- Mise en place des armes" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.0&#10;- Création des combatant&#10;- Attaque entre combatant&#10;- Affichage des caractéristiques&#10;- Installation des tours de jeu&#10;- Début de création des armes&#10;&#10;A faire : &#10;- Mise en place des armes" />
+    <MESSAGE value="2.0&#10;- Mise en place de armes&#10;- Jeu possible entre deux ordinateurs" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.0&#10;- Mise en place de armes&#10;- Jeu possible entre deux ordinateurs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

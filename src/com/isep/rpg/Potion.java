@@ -1,9 +1,15 @@
 package com.isep.rpg;
 
 // regen les points de magie
-public class Potion extends Consumable{
+public abstract class Potion extends Consumable{
 
-    private int pointRegen = 450;
+    private final int effet;
 
-    public int getPointRegen() {return this.pointRegen;}
+    public Potion(int effet) {
+        this.effet = effet;
+        super.setType("Potion");
+    }
+
+    public int getPointRegen() {return this.effet;}
+
 }

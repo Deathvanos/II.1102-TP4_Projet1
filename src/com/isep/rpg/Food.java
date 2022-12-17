@@ -1,9 +1,17 @@
 package com.isep.rpg;
 
 // Regen les points de vie
-public class Food extends Consumable{
+public abstract class Food extends Consumable{
 
-    private int pointRegen = 450;
+    private final int effet;
 
-    public int getPointRegen() {return this.pointRegen;}
+
+    public Food(int effet) {
+        this.effet = effet;
+        super.setType("Food");
+    }
+
+    public int getPointRegen() {
+        return this.effet;
+    }
 }
